@@ -1,7 +1,7 @@
 theme = "docuapi"
 #themesdir = "../.."
 languageCode = "en-us"
-baseurl = "http://docuapi.com/"
+baseurl = "http://rayhog.com/"
 title = "Ray's Flex Site"
 
 # Code higlighting settings
