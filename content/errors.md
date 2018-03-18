@@ -10,6 +10,9 @@ title: Errors
 
 The Kittn API uses the following error codes:
 
+Welcome to the Ray's API! test test
+Welcome to the Ray's API! test test
+
 
 Error Code | Meaning
 ---------- | -------

@@ -6,6 +6,8 @@ title: Feil
 
 # Feil
 
+Welcome to the Ray's API! test test
+Welcome to the Ray's API! test test
 <aside class="notice">Denne seksjonen om feil er lagra i éiga fil, errors.md. DocuAPI let deg dele dokumentasjonen inn i så mange filer som du måtte ynskje. Filene blir henta inn i standard Hugo-rekkjefølgje. Den lettaste måten å styre denne rekkjefølgja er å sette vekt på kvar side, t.d. `weight=10` Sidene med lågast vekt blir vist først.</aside>
 
 Kittn-APIet tek i bruk følgjande feilkodar:
