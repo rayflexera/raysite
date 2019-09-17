@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: nfs-pv
+spec:
+  accessModes:
+  - ReadWriteOnce
+  capacity:
+    storage: 800Gi
+  hostPath:
+    path: /var/lib/docker/local-storage
+  nodeAffinity:
+    required:
+      nodeSelectorTerms:
+      - matchExpressions:
+        - key: kubernetes.io/hostname
+          operator: In
+          values:
+          - eng-suite-perf02.dc1.lan
+  persistentVolumeReclaimPolicy: Delete
+  volumeMode: Filesystem
+
